@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    path: dev
-    repoURL: https://github.com/sangkips/loan-api.git
+    repoURL: https://github.com/sangkips/argocd.git
     targetRevision: HEAD
+    path: dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
