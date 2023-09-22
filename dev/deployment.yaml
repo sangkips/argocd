@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: sangkips/loan-api
+        image: sangkips/loan-api:latest
         resources:
           limits:
             memory: "128Mi"
